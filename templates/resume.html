@@ -1,0 +1,115 @@
+{% extends "mylayout.html" %}
+{% block nav %}
+<li><a href="/">Home</a></li>
+<li><a href="/about">About</a></li>
+<li class="active"><a href="/resume">Resume</a></li>
+<li><a href="/services">Services</a></li>
+<!-- <li><a href="/portfolio">Portfolio</a></li> -->
+<li><a href="/contact">Contact</a></li>
+{% endblock %}
+{% block content %}
+
+  <main id="main">
+
+    <!-- ======= Resume Section ======= -->
+    <section id="resume" class="resume">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Resume</h2>
+          <p>{{params['resume_top']}}</p>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-6">
+            <h3 class="resume-title">Personal Details</h3>
+            <div class="resume-item pb-0">
+              <h4>{{params['Name']}}</h4>
+              <p><em>{{params['personal_details']}}</em></p>
+              <p>
+              <ul>
+                <li>{{params['City']}}</li>
+                <li>{{params['Phone']}}</li>
+                <li>{{params['Email']}}</li>
+              </ul>
+              </p>
+            </div>
+
+            <h3 class="resume-title">Education</h3>
+            <div class="resume-item">
+              <h4>{{params['education1']}}</h4>
+              <h5>{{params['e1yop']}}</h5>
+              <p><em>{{params['e1_institute']}}</em></p>
+              
+            </div>
+            <div class="resume-item">
+              <h4>{{params['education2']}}</h4>
+              <h5>{{params['e2yop']}}</h5>
+              <p><em>{{params['e2_institute']}}</em></p>
+              
+            </div>
+
+            <div class="resume-item">
+              <h4>{{params['education3']}}</h4>
+              <h5>{{params['e3yop']}}</h5>
+              <p><em>{{params['e3_institute']}}</em></p>
+              
+            </div>
+
+            <div class="resume-item">
+              <h4>{{params['education4']}}</h4>
+              <h5>{{params['e4yop']}}</h5>
+              <p><em>{{params['e4_institute']}}</em></p>
+              
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <h3 class="resume-title">Skills</h3>
+            <div class="resume-item">
+              <!-- <h4>Senior graphic design specialist</h4> -->
+              <!-- <h5>2019 - Present</h5> -->
+              <!-- <p><em>Experion, New York, NY </em></p> -->
+              <!-- <p> -->
+              <ul>
+                <li>{{params['skill1']}}</li>
+                <li>{{params['skill2']}}</li>
+                <li>{{params['skill3']}}</li>
+                <li>{{params['skill4']}}</li>
+                <li>{{params['skill5']}}</li>
+                <li>{{params['skill6']}}</li>
+                <li>{{params['skill7']}}</li>
+                <li>{{params['skill8']}}</li>
+                <li>{{params['skill9']}}</li>
+                <li>{{params['skill10']}}</li>
+                <li>{{params['skill11']}}</li>
+              </ul>
+              </p>
+            </div>
+            <div class="col-lg-6">
+              <h3 class="resume-title">Achievements</h3>
+            <div class="resume-item">
+              <!-- <h4>Achievements</h4> -->
+              <h5>{{params['year']}}</h5>
+              <!-- <p><em>Stepping Stone Advertising, New York, NY</em></p> -->
+              <p>
+              <ul>
+                <li>RPA Developer Advanced</li>
+                <li>Python Programming</li>
+                <li>Certificate for participating in future career assumptions</li>
+                <li>Certificate for the e-quiz held on the international Yoga day</li>
+                <li>Soft skills: The essentials of survival in Corporate Jungle</li>
+                <li>Participation in the national webinar on "Impact of Covid 19"</li>
+        
+              </ul>
+              </p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Resume Section -->
+
+  </main><!-- End #main -->
+
+
+{% endblock %}

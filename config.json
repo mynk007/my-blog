@@ -1,0 +1,66 @@
+{
+    "params":
+    {   "username":"mynkk007@gmail.com",
+        "password":"self@123",
+        "receiver_email":"bajaj.mynk@gmail.com",
+        "year":"2021",
+        "blog_title":"Mayank's Blog",
+        "instagram_url":"https://instagram.com/mayankk_bajaj_007?igshid=9zkn55lm9ahq",
+        "fb_url":"https://www.facebook.com/mayank.maheshwari.923",
+        "Linkedin":"https://www.linkedin.com/in/mayank-maheshwari-0a22371b9/",
+        "local_server":"True",
+        "local_uri": "mysql://root:@localhost/db1",
+        "prod_uri" : "mysql://root:@localhost/db1",
+        "logo" : "Mayank",
+        "Name": "Mayank Maheshwari",
+        "Status": "Talk is cheap... Show me the Code",
+
+        "About_main":"I am Mayank Maheshwari, 21 Years old. I have completed my graduation in BCA & currently pursuing Masters from NIET, Noida. I have great intrest in computers, softwares, web also it's a great feild to built up a career on. ",
+        "About_pic_path":"assets/img/about.jpg",
+        "About_me":"I never try to be  the best programmer, i always try to be better than before as a programmer as well as a human being. I like to play chess in my free time, the challenge of chess is also the challenge of life, it will make you learn how to hold complexity in mind and still make good decisions. Also, I am very health conscious, I love to workout & I wish my country to stay fit and follow healthy lifestyle .",
+        "About_title": "Developer, Gamer & Athelete",
+        "More_about": "Make it work, make it right, make it fast...",
+        "Birthday": "11 jan 1999",
+        "Phone" : "8755223393",
+        "City": "New Delhi",
+        "Age": "21",
+        "Degree": "Master(MCA)",
+        "Email": "Mynkk007@gmail.com",
+        "Freelance": "Available",
+        
+   
+        "skill_tagline":"I'm Not a Great Programmer, I'm Just a Good Programmer With Great Habits. Given below are my skills with their approximate percentage of knowlodge i have ",
+        "skill1":"HTML", "sk1":"70",
+        "skill2":"CSS","sk2":"70",
+        "skill3":"Bootstrap","sk3":"60",
+        "skill4":"Javascript","sk4":"60",
+        "skill5":"PHP","sk5":"70",
+        "skill6":"Python","sk6":"80",
+        "skill7":"Tkinter(Gui)","sk7":"70",
+        "skill8":"Flask","sk8":"70",
+        "skill9":"Django","sk9":"80",
+        "skill10":"Mysql","sk10":"60",
+        "skill11":"RPA(Robotics Process Automation)","sk11":"70",
+
+
+
+        "resume_top":"MCA Student, Quest to work in a real professional atmosphere that enables me to cope up with the emerging as well as the latest technology and which gives me the scope of widening the spectrum of my knowledge.",
+        "personal_details":"I can do the work and deliver exceptional results. I believe in finding positive aspect of everything. I am adaptable, a quick learner and a team player too. I have passion to learn and experience new things for career and self.",
+        "education1": "MCA", "e1_institute":"NIET ,GREATER NOIDA, AKTU", "e1yop":"2021",
+        "education2": "BCA", "e2_institute":"PCTI, DELHI, IGNOU",        "e2yop":"2019",
+        "education3": "12th","e3_institute":"BRB MODEL SCHOOL, CBSE",    "e3yop":"2015",
+        "education4": "10th","e4_institute":"BRB MODEL SCHOOL, CBSE",    "e4yop":"2013",
+
+
+        "service_para":"I am not the best programmer but i am really a good programmer with great habits. I do not have very much experience but i do my work with my full potential and focus i assure you i will do my best to provide you my services with full satisfaction",
+        "service1":"Web Development", "about_service1":"Full Stack Web development using html, css, bootstrap, flask and mysql",
+        "service2":"Automation", "about_service2":"Automate your Repetitive Tasks With Robotics Process Automation",
+        "service3":"GUI Development", "about_service3":"GUI development using Tkinter Framework"
+        
+
+
+
+
+        
+    }
+}
