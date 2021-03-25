@@ -9,8 +9,6 @@
         "fb_url":"https://www.facebook.com/mayank.maheshwari.923",
         "Linkedin":"https://www.linkedin.com/in/mayank-maheshwari-0a22371b9/",
         "local_server":"False",
-        "local_uri": "mysql://root:@localhost/db1",
-        "prod_uri" : "mysql://root:@localhost/db1",
         "logo" : "Mayank",
         "Name": "Mayank Maheshwari",
         "Status": "Talk is cheap... Show me the Code",
